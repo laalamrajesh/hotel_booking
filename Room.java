@@ -5,9 +5,9 @@ class Room
 	boolean air_conditioned;
 	int price;
 	boolean availability;
-	int floor;
+	String floor;
 
-	Room( int number, String occupancy, boolean air_conditioned,int floor)
+	Room( int number, String occupancy, boolean air_conditioned,String floor)
 	{
 		this.number = number;
 		this.occupancy = occupancy;

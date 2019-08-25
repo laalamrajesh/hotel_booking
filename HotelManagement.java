@@ -9,13 +9,12 @@ public class HotelManagement
 	{
 		Hotel hotel = new Hotel();
 		hotel.addRooms();
-		hotel.addFloors();
 
 		Scanner scanner = new Scanner(System.in);
 		boolean repeat = true;
 		while(repeat)
 		{
-			//hotel.showAvailableRooms();
+			
 			String room_type = scanner.next();
 			String occupancy = scanner.next();
 			String air_conditioned_type = scanner.next();
